@@ -1,0 +1,858 @@
+Index: files/diff.patch
+===================================================================
+--- files/diff.patch
++++ files/diff.patch
+@@ -4,18 +4,18 @@
+     <description><![CDATA[The Working Holiday category is designed for Australian citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 24 months).]]></description>
+     <quota><![CDATA[unlimited]]></quota>
+     <places><![CDATA[unlimited]]></places>
+     <status>This category is now open.</status>
++    
++    <note><![CDATA[<strong>Note:</strong> As an Australian citizen, you may participate in the Working Holiday category only once. If you meet the eligibility criteria, you may participate in IEC one more time through the International Co-op (Internship) category.</p><p>If you participated in IEC before 2015, you are eligible <strong>for a final participation</strong> of up to 24 months in the category of your choice. 
+-
+-    <note><![CDATA[<strong>Note:</strong> As an Australian citizen, you may participate in the Working Holiday category only once. If you meet the eligibility criteria, you may participate in IEC one more time through the International Co-op (Internship) category.</p><p>If you participated in IEC before 2015, you are eligible <strong>for a final participation</strong> of up to 24 months in the category of your choice.
+ ]]></note>
+     <criteria><![CDATA[be an Australian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Australian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 30 (inclusive) at the time of application,]]></criteria>
+     <criteria><![CDATA[have the equivalent of C$2,500 to help cover your expenses,]]></criteria>
+     <criteria><![CDATA[be able to take out health insurance for the duration of your stay – you may have to present evidence of this insurance when you enter Canada,]]></criteria>
+     <criteria><![CDATA[be admissible to Canada,]]></criteria>
++    <criteria><![CDATA[have, prior to departure, a round-trip ticket or the financial resources to purchase a departure ticket for the end of your authorized stay in Canada,]]></criteria>
+-    <criteria><![CDATA[have, prior to deperbearture, a round-trip ticket or the financial resources to purchase a departure ticket for the end of your authorized stay in Canada,]]></criteria>
+     <criteria><![CDATA[<a href="/english/helpcentre/answer.asp?q=196&amp;t=17">not be accompanied by dependents</a> and]]></criteria>
+     <criteria><![CDATA[pay the fees.]]></criteria>
+   </country>
+ 
+@@ -24,9 +24,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Australian citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying (up to 24 months).]]></description>
+     <quota><![CDATA[unlimited]]></quota>
+     <places><![CDATA[unlimited]]></places>
+     <status>This category is now open.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As an Australian citizen, you may participate in the Young Professionals category only once. If you meet the eligibility criteria, you may participate in IEC one more time through the International Co-op (Internship) category.</p><p>If you participated in IEC before 2015, you are eligible <strong>for a final participation</strong> of up to 24 months in the category of your choice.]]></note>
+     <criteria><![CDATA[be an Australian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Australian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 30 (inclusive) at the time of application,]]></criteria>
+@@ -44,9 +44,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Australian citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Australia. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota><![CDATA[unlimited]]></quota>
+     <places><![CDATA[unlimited]]></places>
+     <status>This category is now open.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As an Australian citizen, you may participate in the International Co-op (Internship) category only once. If you meet the eligibility criteria, you may participate one more time in IEC through the Working Holiday category or Young Professionals category.</p><p>If you participated in IEC before 2015, you are eligible <strong>for a final participation</strong> of up to 24 months in the category of your choice.]]></note>
+     <criteria><![CDATA[be an Australian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Australian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 30 (inclusive) at the time of application,]]></criteria>
+@@ -65,9 +65,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Austrian citizens permanently employed in Austria who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment with a partner, parent or subsidiary company in Canada before applying (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+ 	<note><![CDATA[<strong>Note:</strong> As an Austrian citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be an Austrian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Austrian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of Austria at the time of applying,]]></criteria>
+@@ -88,9 +88,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Austrian citizens who are enrolled at a vocational/specialized/secondary/<a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> or who have graduated within the last 12 months. Students and graduates must need or want to complete a work placement or internship in Canada in forestry, agriculture or tourism. The internship or placement must fulfill part of the curriculum for student participants or contribute to the professional development for graduates (up to 6 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As an Austrian citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be an Austrian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Austrian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of Austria at the time of applying,]]></criteria>
+@@ -109,9 +109,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Belgian citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Belgian citizen, you may participate in IEC only once.]]></note>
+     <criteria><![CDATA[be a Belgian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Belgian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of Belgium at the time of applying,]]></criteria>
+@@ -131,9 +131,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Chilean citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Chilean citizen, you may participate in IEC only once.]]></note>
+     <criteria><![CDATA[be a Chilean citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Chilean passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -150,9 +150,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Chilean citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Chilean citizen, you may participate in IEC only once.]]></note>
+     <criteria><![CDATA[be a Chilean citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Chilean passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -170,9 +170,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Chilean citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Chile. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Chilean citizen, you may participate in IEC only once.]]></note>
+     <criteria><![CDATA[be a Chilean citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Chilean passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -192,9 +192,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Costa Rican citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Costa Rican citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Costa Rican citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Costa Rican passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -211,9 +211,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Costa Rican citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Costa Rican citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Costa Rican citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Costa Rican passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -231,9 +231,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Costa Rican citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Costa Rica. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Costa Rican citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Costa Rican citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Costa Rican passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -252,9 +252,9 @@
+ <quota>275</quota>
+ <places><![CDATA[0 <br> <strong>Waiting list:</strong> 275 (out of 275)]]></places>
+ <status>This category is now closed.</status>
+ 
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Croatian citizen, you may participate in IEC twice, under any category. There must be a three-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Croatian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Croatian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of Croatia at the time of applying,]]></criteria>
+@@ -275,9 +275,9 @@
+ <status>This category is now closed.</status>
+ 
+ 
+ 
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Croatian citizen, you may participate in IEC twice, under any category. There must be a three-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Croatian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Croatian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of Croatia at the time of applying,]]></criteria>
+@@ -298,9 +298,9 @@
+ <places><![CDATA[0 <br> <strong>Waiting list:</strong> 5 (out of 5)]]></places>
+ <status>This category is now closed.</status>
+ 
+ 
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Croatian citizen, you may participate in IEC twice, under any category. There must be a three-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Croatian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Croatian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of Croatia at the time of applying,]]></criteria>
+@@ -320,9 +320,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Czech citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Czech citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Czech citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Czech passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of the Czech Republic at the time of applying,]]></criteria>
+@@ -340,9 +340,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Czech citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Czech citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Czech citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Czech passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of the Czech Republic at the time of applying,]]></criteria>
+@@ -361,9 +361,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Czech citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in the Czech Republic. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Czech citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Czech citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Czech passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of the Czech Republic at the time of applying,]]></criteria>
+@@ -385,9 +385,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Danish citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Danish citizen, you may participate in IEC only once.]]></note>
+     <criteria><![CDATA[be a Danish citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Danish passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -407,9 +407,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Estonian citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As an Estonian citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be an Estonian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Estonian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -426,9 +426,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Estonian citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As an Estonian citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be an Estonian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Estonian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -446,9 +446,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Estonian citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Estonia. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As an Estonian citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be an Estonian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Estonian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -466,9 +466,9 @@
+     <description><![CDATA[The Working Holiday category is designed for French citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 24 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a French citizen, you may participate in the Working Holiday only once. If you meet the eligibility criteria, you may participate in IEC one more time through the International Co-op (Internship) category. </p><p>If you participated in IEC only once before 2015, you are eligible for a second participation of up to 24 months in the category of your choice.  Those who have already participated in IEC more than once before 2015 are not eligible.</p><p>French citizens participating in the "<span lang="fr">Volontariat international en entreprises</span>" (VIE) program to Canada must apply for their work permit through the IEC program. You must submit an application under the Young Professionals category.]]></note>
+     <criteria><![CDATA[be a French citizen from the following territories: France, Guadeloupe, Guyana, Martinique, Guiana, Réunion, Mayotte and St. Pierre and Miquelon,]]></criteria>
+     <criteria><![CDATA[have a valid French passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -487,9 +487,9 @@
+ <places><![CDATA[21<sup id="fn*-rf"><a class="fn-lnk" href="#fn*"><span class="wb-inv">Footnote </span>*</a></sup> (Young Professionals – round 1); 416<sup id="fn*-rf"><a class="fn-lnk" href="#fn*"><span class="wb-inv">Footnote </span>*</a></sup> (VIE) (last updated March 3, 2015, at 14:00, Eastern Standard Time [EST])]]></places>
+ <status>This category is now open.</status>
+ 
+ 
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a French citizen, you may participate in the Young Professionals categories only once. If you meet the eligibility criteria, you may participate in IEC one more time through the International Co-op (Internship) category. </p><p>If you participated in IEC only once before 2015, you are eligible for a second participation of up to 24 months in the category of your choice. Those who have already participated in IEC more than once before 2015 are not eligible.</p><p>French citizens participating in the "<span lang="fr">Volontariat international en entreprises</span>" (VIE) program to Canada must apply for their work permit through the IEC program. You must submit an application under the Young Professionals category.]]></note>
+     <criteria><![CDATA[be a French citizen from the following territories: France, Guadeloupe, Guyana, Martinique, Guiana, Réunion, Mayotte  and St. Pierre and Miquelon,]]></criteria>
+     <criteria><![CDATA[have a valid French passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -532,9 +532,9 @@
+     <description><![CDATA[The Working Holiday category is designed for German citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a German citizen you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a German citizen,]]></criteria>
+     <criteria><![CDATA[have a valid German passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -551,9 +551,9 @@
+     <description><![CDATA[The Young Professionals category is designed for German citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>400</quota>
+     <places><![CDATA[255<sup id="fn*-rf"><a class="fn-lnk" href="#fn*"><span class="wb-inv">Footnote </span>*</a></sup> (last updated March 3, 2015, at 14:00, Eastern Standard Time [EST])]]></places>
+     <status>This category is now open.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a German citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a German citizen,]]></criteria>
+     <criteria><![CDATA[have a valid German passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -571,9 +571,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for German citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Germany. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>400</quota>
+     <places><![CDATA[261<sup id="fn*-rf"><a class="fn-lnk" href="#fn*"><span class="wb-inv">Footnote </span>*</a></sup> (last updated March 3, 2015, at 14:00, Eastern Standard Time [EST])]]></places>
+     <status>This category is now open.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a German citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a German citizen,]]></criteria>
+     <criteria><![CDATA[have a valid German passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -593,9 +593,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Greek citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Greek citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Greek citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Greek passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -612,9 +612,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Greek citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Greek citizen you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Greek citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Greek passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -632,9 +632,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Greek citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Greece. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Greek citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Greek citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Greek passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -655,9 +655,9 @@
+     <description><![CDATA[The Working Holiday category is designed for citizens of Hong Kong who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a resident in the Hong Kong Special Administrative Region (HKSAR), you may participate in IEC only once.]]></note>
+     <criteria><![CDATA[be a resident in the HKSAR]]></criteria>
+     <criteria><![CDATA[have a valid HKSAR passport or a valid British National (Overseas) passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 30 (inclusive) at the time of application,]]></criteria>
+@@ -674,9 +674,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Irish citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 24 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As an Irish citizen, you may participate in the Working Holiday category only once. If you meet the eligibility criteria, you may participate in IEC one more time through the International Co-op (Internship) category. </p><p>If you participated in IEC before 2013 for a period of up to 12 months, you are eligible for a second participation of up to 24 months in the category of your choice. Those who participated in IEC more than once before 2013 are no longer eligible to apply.]]></note>
+     <criteria><![CDATA[be an Irish citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Irish passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -693,9 +693,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Irish citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 24 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As an Irish citizen, you may participate in the Young Professionals category only once. If you meet the eligibility criteria, you may participate one more time in IEC through the International Co-op (Internship) category.</p><p>If you participated in IEC before 2013 for a period of up to 12 months, you are eligible for a second participation of up to 24 months in the category of your choice. Those who participated in IEC more than once before 2013 are no longer eligible to apply.]]></note>
+     <criteria><![CDATA[be an Irish citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Irish passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -713,9 +713,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Irish citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Ireland. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong>  As an Irish citizen, you may participate in the International Co-op (Internship) category only once. If you meet the eligibility criteria, you may participate one more time in IEC through the Working Holiday category or the Young Professionals category.</p><p>If you participated in IEC before 2013 for a period of up to 12 months, you are eligible for a second participation of up to 24 months in the category of your choice. Those who participated in IEC more than once before 2013 are no longer eligible to apply.]]></note>
+     <criteria><![CDATA[be an Irish citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Irish passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -734,9 +734,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Italian citizens who intend to travel in Canada (up to 12 months) and who wish to find temporary paid employment to help pay for their stay (up to six months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As an Italian citizen, you may participate in IEC only once.]]></note>
+     <criteria><![CDATA[be an Italian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Italian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of Italy at the time of applying,]]></criteria>
+@@ -754,9 +754,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Japanese citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Japanese citizen, you may participate in IEC only once.]]></note>
+     <criteria><![CDATA[be a Japanese citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Japanese passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 30 (inclusive) at the time of application,]]></criteria>
+@@ -773,9 +773,9 @@
+     <description><![CDATA[The Working Holiday category is designed for South Korean citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota><![CDATA[2,000 (round 1)]]></quota>
+     <places><![CDATA[0 (round 1)]]></places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Korean citizen, you may participate in IEC only once.]]></note>
+     <criteria><![CDATA[be a citizen of the Republic of Korea,]]></criteria>
+     <criteria><![CDATA[have a valid Korean passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of the Republic of Korea at the time of applying,]]></criteria>
+@@ -786,15 +786,15 @@
+     <criteria><![CDATA[have, prior to departure, a round-trip ticket or the financial resources to purchase a departure ticket for the end of your authorized stay in Canada,]]></criteria>
+     <criteria><![CDATA[<a href="/english/helpcentre/answer.asp?q=196&amp;t=17">not be accompanied by dependents</a> and]]></criteria>
+     <criteria><![CDATA[pay the fees.]]></criteria>
+   </country>
++  
+-
+   <country location="Latvia" category="wh" code="lv">
+     <description><![CDATA[The Working Holiday category is designed for Latvian citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Latvian citizen, you may participate in IEC twice. You must choose a different category each time. There must be a one year break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Latvian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Latvian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of the Republic of Latvia at the time of applying,]]></criteria>
+@@ -812,9 +812,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Latvian citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong>  As a Latvian citizen, you may participate in IEC twice. You must choose a different category each time. There must be a one year break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Latvian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Latvian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of the Republic of Latvia at the time of applying,]]></criteria>
+@@ -833,9 +833,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Latvian citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Latvia. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Latvian citizen, you may participate in IEC twice. You must choose a different category each time. There must be a one year break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Latvian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Latvian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of the Republic of Latvia at the time of applying,]]></criteria>
+@@ -855,9 +855,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Lithuanian citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Lithuanian citizen, you may participate in IEC twice. You must choose a different category each time. There must be a three-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Lithuanian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Lithuanian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -873,9 +873,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Lithuanian citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Lithuanian citizen, you may participate in IEC twice. You must choose a different category each time. There must be a three-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Lithuanian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Lithuanian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -893,9 +893,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Lithuanian citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Lithuania. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Lithuanian citizen, you may participate in IEC twice. You must choose a different category each time. There must be a three-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Lithuanian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Lithuanian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -914,9 +914,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Mexican citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay. Participants must be enrolled at a post-secondary institution in Mexico and travelling to Canada during their academic holidays (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Mexican citizen, you may participate in IEC twice, under any category. There must be a three-year break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Mexican citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Mexican passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 29 (inclusive) at the time of application,]]></criteria>
+@@ -934,9 +934,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Mexican citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Mexican citizen, you may participate in IEC twice, under any category. There must be a three-year break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Mexican citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Mexican passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 29 (inclusive) at the time of application,]]></criteria>
+@@ -954,9 +954,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Mexican citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Mexico. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Mexican citizen, you may participate in IEC twice, under any category. There must be a three-year break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Mexican citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Mexican passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 29 (inclusive) at the time of application,]]></criteria>
+@@ -974,9 +974,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Dutch citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Dutch citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Dutch citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Dutch passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 30 (inclusive) at the time of application,]]></criteria>
+@@ -993,9 +993,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Dutch citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Dutch citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Dutch citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Dutch passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 30 (inclusive) at the time of application,]]></criteria>
+@@ -1013,9 +1013,9 @@
+     <description><![CDATA[The Working Holiday category is designed for New Zealand citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 23 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a citizen of New Zealand, you may participate in IEC only once.</p><p>If you participated in IEC before 2015, you are no longer eligible to apply.]]></note>
+     <criteria><![CDATA[be a citizen of New Zealand,]]></criteria>
+     <criteria><![CDATA[have a valid New Zealand passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1032,9 +1032,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Norwegian citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Norwegian citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Norwegian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Norwegian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1051,9 +1051,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Norwegian citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Norwegian citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Norwegian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Norwegian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1071,9 +1071,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Norwegian citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Norway. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Norwegian citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Norwegian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Norwegian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1092,9 +1092,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Polish citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Polish citizen, you may participate in IEC twice. You must choose a different category each time. There must be a six-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Polish citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Polish passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1111,9 +1111,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Polish citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Polish citizen, you may participate in IEC twice. You must choose a different category each time. There must be a six-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Polish citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Polish passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1131,9 +1131,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Polish citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Poland. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Polish citizen, you may participate in IEC twice. You must choose a different category each time. There must be a six-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Polish citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Polish passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1152,9 +1152,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Slovak citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Slovak citizen, you may participate in IEC twice. You must choose a different category each time. There must be a three-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Slovak citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Slovak passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of the Slovak Republic at the time of application,]]></criteria>
+@@ -1172,9 +1172,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Slovak citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Slovak citizen, you may participate in IEC twice. You must choose a different category each time. There must be a three-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Slovak citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Slovak passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of the Slovak Republic at the time of application,]]></criteria>
+@@ -1193,9 +1193,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Slovak citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Slovakia. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Slovak citizen, you may participate in IEC twice. You must choose a different category each time. There must be a three-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Slovak citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Slovak passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of the Slovak Republic at the time of applying,]]></criteria>
+@@ -1214,9 +1214,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Slovenian citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Slovenian citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Slovenian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Slovenian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1233,9 +1233,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Slovenian citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Slovenian citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Slovenian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Slovenian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1253,9 +1253,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Slovenian citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Slovenia. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Slovenian citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Slovenian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Slovenian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1276,9 +1276,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Spanish citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Spanish citizen, you may participate in IEC twice. You must choose a different category each time. There must be a three-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Spanish citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Spanish passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of Spain at the time of applying,]]></criteria>
+@@ -1296,9 +1296,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Spanish citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Spanish citizen, you may participate in IEC twice. You must choose a different category each time. There must be a three-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Spanish citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Spanish passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of Spain at the time of applying,]]></criteria>
+@@ -1317,9 +1317,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Spanish citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Spain. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Spanish citizen, you may participate in IEC twice. You must choose a different category each time. There must be a three-month break between the expiry date of your first Canadian work permit under IEC and the submission date of your second IEC application.]]></note>
+     <criteria><![CDATA[be a Spanish citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Spanish passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be a resident of Spain at the time of applying,]]></criteria>
+@@ -1338,9 +1338,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Swedish citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Swedish citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Swedish citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Swedish passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 30 (inclusive) at the time of application,]]></criteria>
+@@ -1357,9 +1357,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Swedish citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Swedish citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Swedish citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Swedish passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 30 (inclusive) at the time of application,]]></criteria>
+@@ -1377,9 +1377,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Swedish citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Sweden. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Swedish citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a Swedish citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Swedish passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 30 (inclusive) at the time of application,]]></criteria>
+@@ -1399,9 +1399,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Swiss citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 18 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Swiss citizen, you may participate in IEC twice. The combined durations of your two IEC work permits to Canada must not exceed 18 months.]]></note>
+     <criteria><![CDATA[be a Swiss citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Swiss passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1419,9 +1419,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Swiss citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Switzerland. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Swiss citizen, you may participate in IEC twice. The combined durations of your two IEC work permits to Canada must not exceed 18 months.]]></note>
+     <criteria><![CDATA[be a Swiss citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Swiss passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1440,9 +1440,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Taiwanese youth who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Taiwanese youth, you may participate in IEC only once.]]></note>
+     <criteria><![CDATA[have a valid Taiwanese passport, that includes your personal identification number, for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+     <criteria><![CDATA[have the equivalent of C$2,500 to help cover your expenses,]]></criteria>
+@@ -1458,9 +1458,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Taiwanese youth, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Taiwanese youth, you may participate in IEC only once.]]></note>
+     <criteria><![CDATA[have a valid Taiwanese passport, that includes your personal identification number, for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+     <criteria><![CDATA[have the equivalent of C$2,500 to help cover your expenses,]]></criteria>
+@@ -1477,9 +1477,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Taiwanese youth who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Taiwan. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Taiwanese youth, you may participate in IEC only once.]]></note>
+     <criteria><![CDATA[have a valid Taiwanese passport, that includes your personal identification number, for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+ 	<criteria><![CDATA[be registered as a student in a post-secondary institution in Taiwan,]]></criteria>
+@@ -1498,9 +1498,9 @@
+     <description><![CDATA[The Working Holiday category is designed for Ukrainian citizens who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Ukrainian citizen, you may participate in IEC twice, under any category.]]></note>
+     <criteria><![CDATA[be a Ukrainian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Ukrainian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1517,9 +1517,9 @@
+     <description><![CDATA[The Young Professionals category is designed for Ukrainian citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Ukrainian citizen, you may participate in IEC twice, under any category.]]></note>
+     <criteria><![CDATA[be a Ukrainian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Ukrainian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1537,9 +1537,9 @@
+     <description><![CDATA[The International Co-op (Internship) category is designed for Ukrainian citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Ukraine. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a Ukrainian citizen, you may participate in IEC twice, under any category.]]></note>
+     <criteria><![CDATA[be a Ukrainian citizen,]]></criteria>
+     <criteria><![CDATA[have a valid Ukrainian passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 35 (inclusive) at the time of application,]]></criteria>
+@@ -1559,9 +1559,9 @@
+     <description><![CDATA[The Working Holiday category is designed for citizens of the United Kingdom who intend to travel in Canada and who wish to find temporary paid employment to help pay for their stay (up to 24 months).]]></description>
+     <quota>0</quota>
+     <places>0</places>
+     <status>This category is now closed.</status>
++    
+-
+     <note><![CDATA[<strong>Note:</strong> As a British citizen, you may participate in IEC once.</p><p>If you participated in IEC before 2015 for a period of up to 12 months, you are eligible for a second participation of up to 24 months. Those who participated in IEC more than once before 2015 are no longer eligible to apply.]]></note>
+     <criteria><![CDATA[be a British citizen from the following territories: the United Kingdom and the Channel Islands of Jersey and Guernsey,]]></criteria>
+     <criteria><![CDATA[have a valid UK passport with British citizenship or a valid Channel Islands (Jersey, Guernsey) passport for the duration of your stay in Canada – your work permit in Canada will not be longer than the validity of your passport,]]></criteria>
+     <criteria><![CDATA[be between the ages of 18 and 30 (inclusive) at the time of application,]]></criteria>

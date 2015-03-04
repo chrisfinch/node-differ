@@ -3,6 +3,18 @@ var fs = require('fs');
 var jsdiff = require('diff');
 var nodemailer = require('nodemailer');
 
+// var generator = require('xoauth2').createXOAuth2Generator({
+//     user: 'chris.node.mailer@gmail.com',
+//     clientId: '467927207830-tdas1sfg74re1jibn20cl2oqkbn44h41.apps.googleusercontent.com',
+//     clientSecret: 'omZlXbL4uV82H_IgkUJgpIOV',
+// });
+
+// listen for token updates
+// you probably want to store these to a db
+// generator.on('token', function(token){
+//     console.log('New token for %s: %s', token.user, token.accessToken);
+// });
+
 // create reusable transporter object using SMTP transport
 var transporter = nodemailer.createTransport({
     service: 'Gmail',
@@ -10,6 +22,9 @@ var transporter = nodemailer.createTransport({
         user: 'chris.node.mailer@gmail.com',
         pass: 'chris.node.mailer123'
     }
+    // auth: {
+    //     xoauth2: generator
+    // }
 });
 
 //require the Twilio module and create a REST client
@@ -19,7 +34,7 @@ function diffAndSendMail () {
 
     var d = new Date();
 
-    console.log('>> (' + d.toDateString() + ' ' + d.toTimeString() + ') Running...');
+    console.log('>> (' + d.toDateString() + ' ' + d.toTimeString() + ') Running ====================');
 
     var req = request('http://www.cic.gc.ca/english/work/iec/data.xml')
         .pipe(fs.createWriteStream('files/current.xml'));
@@ -84,7 +99,10 @@ function diffAndSendMail () {
                             console.log('Email sent: ' + info.response);
 
                             updateFileConfiguration();
-                            fs.writeFile('patches/' + (new Date()).toDateString().replace(/\s/g, '-') + '.patch');
+
+                            var d = new Date();
+
+                            fs.writeFile('patches/' + (d.toDateString() + d.toTimeString()).replace(/\s/g, '-') + '.patch', patch);
                         }
                     });
                 } else {
@@ -100,7 +118,7 @@ function updateFileConfiguration () {
     fs.unlink('files/latest.xml', function () {
 
         fs.rename('files/current.xml', 'files/latest.xml', function () {
-            console.log('files moved');
+            console.log('>> Files moved');
         });
     });
 }
