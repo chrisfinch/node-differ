@@ -17,7 +17,9 @@ var twilio = require('twilio')('AC8e0a2e32c7e16f23615f7365a6c47cd2', '10d76e8e4f
 
 function diffAndSendMail () {
 
-    console.log('>> Running...');
+    var d = new Date();
+
+    console.log('>> (' + d.toDateString() + ' ' + d.toTimeString() + ') Running...');
 
     var req = request('http://www.cic.gc.ca/english/work/iec/data.xml')
         .pipe(fs.createWriteStream('files/current.xml'));
