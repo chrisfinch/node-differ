@@ -12,6 +12,9 @@ var transporter = nodemailer.createTransport({
     }
 });
 
+//require the Twilio module and create a REST client
+var twilio = require('twilio')('AC8e0a2e32c7e16f23615f7365a6c47cd2', '10d76e8e4f5b6a1d88d649fea6596db5');
+
 function diffAndSendMail () {
 
     console.log('>> Running...');
@@ -48,14 +51,30 @@ function diffAndSendMail () {
                     console.log('>> Building mail');
                     var patch = jsdiff.createPatch('files/diff.patch', latest, current);
 
+                    //Send an SMS text message
+                    twilio.sendMessage({
+
+                        to:'+447807006645', // Any number Twilio can deliver to
+                        from: '+441877221022', // A number you bought from Twilio and can use for outbound communication
+                        body: 'Diff found at http://www.cic.gc.ca/english/work/iec/index.asp?country=gb&cat=wh' // body of the SMS message
+
+                    }, function(err, responseData) { //this function is executed when a response is received from Twilio
+
+                        if (!err) {
+                            console.log('Text message sent');
+                        } else {
+                            console.log(err);
+                        }
+                    });
+
+                    // send mail with defined transport object
                     var mailOptions = {
-                        from: 'Chris Node Mailer <chris.node.mailer@gmail.com>', // sender address
-                        to: 'chrisfinchy@gmail.com', // list of receivers
-                        subject: 'Change detected in CIC xml file', // Subject line,
+                        from: 'Chris Node Mailer <chris.node.mailer@gmail.com>',
+                        to: 'chrisfinchy@gmail.com, m.h.c.vdlingen@gmail.com',
+                        subject: 'Change detected in CIC xml file by Chris\'s application',
                         text: patch
                     };
 
-                    // send mail with defined transport object
                     transporter.sendMail(mailOptions, function(error, info) {
                         if (error) {
                             console.log(error);
@@ -63,16 +82,12 @@ function diffAndSendMail () {
                             console.log('Email sent: ' + info.response);
 
                             updateFileConfiguration();
-
                             fs.writeFile('patches/' + (new Date()).toDateString().replace(/\s/g, '-') + '.patch');
                         }
                     });
                 } else {
                     console.log(">> Files are the same");
                 }
-
-
-
             });
         })
     });
