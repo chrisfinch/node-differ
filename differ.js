@@ -3,17 +3,31 @@ var fs = require('fs');
 var jsdiff = require('diff');
 var nodemailer = require('nodemailer');
 
-// var generator = require('xoauth2').createXOAuth2Generator({
-//     user: 'chris.node.mailer@gmail.com',
-//     clientId: '467927207830-tdas1sfg74re1jibn20cl2oqkbn44h41.apps.googleusercontent.com',
-//     clientSecret: 'omZlXbL4uV82H_IgkUJgpIOV',
-// });
+var express = require('express')
+var app = express()
 
-// listen for token updates
-// you probably want to store these to a db
-// generator.on('token', function(token){
-//     console.log('New token for %s: %s', token.user, token.accessToken);
-// });
+app.use(express.static('files'));
+app.use(express.static('patches'));
+
+var lastCheckedDate = null;
+
+app.get('/', function (req, res) {
+  
+    var page = [];
+
+    page.push('All is well!');
+    page.push('Last checked: ' + lastCheckedDate.toDateString() + ' ' + lastCheckedDate.toTimeString());
+
+    res.send(page.join('\n\r'))
+})
+
+var server = app.listen(3000, function () {
+
+    var host = server.address().address
+    var port = server.address().port
+
+    console.log('Node Mailer app listening at http://%s:%s', host, port)
+});
 
 // create reusable transporter object using SMTP transport
 var transporter = nodemailer.createTransport({
@@ -22,9 +36,6 @@ var transporter = nodemailer.createTransport({
         user: 'chris.node.mailer@gmail.com',
         pass: 'chris.node.mailer123'
     }
-    // auth: {
-    //     xoauth2: generator
-    // }
 });
 
 //require the Twilio module and create a REST client
@@ -49,6 +60,8 @@ function diffAndSendMail () {
 
             fs.readFile('files/latest.xml', 'utf8', function (err, data) {
 
+                lastCheckedDate = new Date();
+
                 var latest = data;
 
                 console.log('>> Loaded latest');
@@ -64,8 +77,10 @@ function diffAndSendMail () {
                 });
 
                 if (different) {
+                    
                     console.log(">> Files are different...");
                     console.log('>> Building mail');
+                    
                     var patch = jsdiff.createPatch('files/diff.patch', latest, current);
 
                     //Send an SMS text message

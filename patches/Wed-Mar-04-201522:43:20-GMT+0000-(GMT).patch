@@ -1,0 +1,51 @@
+Index: files/diff.patch
+===================================================================
+--- files/diff.patch
++++ files/diff.patch
+@@ -483,10 +483,11 @@
+ 
+   <country location="France" category="yp" code="fr">
+     <description><![CDATA[The Young Professionals category is designed for French citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying (up to 24 months).]]></description>
+ <quota><![CDATA[1,200 (Young Professionals – round 1); 500 (Volontariat international en entreprises [VIE])]]></quota>
++<places><![CDATA[0 (Young Professionals – round 1); 399<sup id="fn*-rf"><a class="fn-lnk" href="#fn*"><span class="wb-inv">Footnote </span>*</a></sup> (VIE) (last updated March 4, 2015, at 14:20, Eastern Standard Time [EST])]]>
++</places>
++<status>This category is now closed.</status>
+-<places><![CDATA[21<sup id="fn*-rf"><a class="fn-lnk" href="#fn*"><span class="wb-inv">Footnote </span>*</a></sup> (Young Professionals – round 1); 416<sup id="fn*-rf"><a class="fn-lnk" href="#fn*"><span class="wb-inv">Footnote </span>*</a></sup> (VIE) (last updated March 3, 2015, at 14:00, Eastern Standard Time [EST])]]></places>
+-<status>This category is now open.</status>
+ 
+ 
+     
+     <note><![CDATA[<strong>Note:</strong> As a French citizen, you may participate in the Young Professionals categories only once. If you meet the eligibility criteria, you may participate in IEC one more time through the International Co-op (Internship) category. </p><p>If you participated in IEC only once before 2015, you are eligible for a second participation of up to 24 months in the category of your choice. Those who have already participated in IEC more than once before 2015 are not eligible.</p><p>French citizens participating in the "<span lang="fr">Volontariat international en entreprises</span>" (VIE) program to Canada must apply for their work permit through the IEC program. You must submit an application under the Young Professionals category.]]></note>
+@@ -506,9 +507,9 @@
+ 
+   <country location="France" category="coop" code="fr">
+     <description><![CDATA[The International Co-op (Internship) category is designed for French citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in France, Guadeloupe, Guyana, Martinique, Guiana, Réunion, Mayotte and St. Pierre and Miquelon. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+ <quota><![CDATA[2,400 (round 1)]]></quota>
++<places><![CDATA[0 (round one)]]></places>
+-<places><![CDATA[0 (round 1)]]></places>
+ <status>This category is now closed.</status>
+ 
+ 
+ 
+@@ -549,9 +550,9 @@
+ 
+   <country location="Germany" category="yp" code="de">
+     <description><![CDATA[The Young Professionals category is designed for German citizens, particularly post-secondary graduates, who wish to further their careers by gaining professional work experience in Canada. Participants must have a signed letter of offer or contract of employment before applying for work experience (up to 12 months).]]></description>
+     <quota>400</quota>
++    <places><![CDATA[215<sup id="fn*-rf"><a class="fn-lnk" href="#fn*"><span class="wb-inv">Footnote </span>*</a></sup> (last updated March 4, 2015, at 14:20, Eastern Standard Time [EST])]]></places>
+-    <places><![CDATA[255<sup id="fn*-rf"><a class="fn-lnk" href="#fn*"><span class="wb-inv">Footnote </span>*</a></sup> (last updated March 3, 2015, at 14:00, Eastern Standard Time [EST])]]></places>
+     <status>This category is now open.</status>
+     
+     <note><![CDATA[<strong>Note:</strong> As a German citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a German citizen,]]></criteria>
+@@ -569,9 +570,9 @@
+ 
+   <country location="Germany" category="coop" code="de">
+     <description><![CDATA[The International Co-op (Internship) category is designed for German citizens who are enrolled at a <a href="/english/helpcentre/glossary.asp#post_secondary_institution">post-secondary institution</a> in Germany. Participants must be registered students for the duration of the internship. Participants must need or want to complete a work placement or internship in Canada to fulfill part of their academic curriculum (up to 12 months).]]></description>
+     <quota>400</quota>
++    <places><![CDATA[228<sup id="fn*-rf"><a class="fn-lnk" href="#fn*"><span class="wb-inv">Footnote </span>*</a></sup> (last updated March 4, 2015, at 14:20, Eastern Standard Time [EST])]]></places>
+-    <places><![CDATA[261<sup id="fn*-rf"><a class="fn-lnk" href="#fn*"><span class="wb-inv">Footnote </span>*</a></sup> (last updated March 3, 2015, at 14:00, Eastern Standard Time [EST])]]></places>
+     <status>This category is now open.</status>
+     
+     <note><![CDATA[<strong>Note:</strong> As a German citizen, you may participate in IEC twice. You must choose a different category each time.]]></note>
+     <criteria><![CDATA[be a German citizen,]]></criteria>
